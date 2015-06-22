@@ -13,6 +13,7 @@
 		A9E07A461B379511004D655A /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = A9E07A441B379511004D655A /* MainMenu.xib */; };
 		A9E07A511B379511004D655A /* TextFieldExpansionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A9E07A501B379511004D655A /* TextFieldExpansionTests.m */; };
 		A9E07A5C1B379511004D655A /* TextFieldExpansionUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A9E07A5B1B379511004D655A /* TextFieldExpansionUITests.m */; };
+		A9E07A6B1B379520004D655A /* MyTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = A9E07A6A1B379520004D655A /* MyTextField.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,8 @@
 		A9E07A571B379511004D655A /* TextFieldExpansionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TextFieldExpansionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9E07A5B1B379511004D655A /* TextFieldExpansionUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextFieldExpansionUITests.m; sourceTree = "<group>"; };
 		A9E07A5D1B379511004D655A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9E07A691B379520004D655A /* MyTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTextField.h; sourceTree = "<group>"; };
+		A9E07A6A1B379520004D655A /* MyTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTextField.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +105,8 @@
 				A9E07A441B379511004D655A /* MainMenu.xib */,
 				A9E07A471B379511004D655A /* Info.plist */,
 				A9E07A3F1B379511004D655A /* Supporting Files */,
+				A9E07A691B379520004D655A /* MyTextField.h */,
+				A9E07A6A1B379520004D655A /* MyTextField.m */,
 			);
 			path = TextFieldExpansion;
 			sourceTree = "<group>";
@@ -263,6 +268,7 @@
 			files = (
 				A9E07A411B379511004D655A /* main.m in Sources */,
 				A9E07A3E1B379511004D655A /* AppDelegate.m in Sources */,
+				A9E07A6B1B379520004D655A /* MyTextField.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
